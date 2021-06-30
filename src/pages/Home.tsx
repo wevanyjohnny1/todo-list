@@ -35,6 +35,7 @@ export function Home() {
     const newTasks = [...new Set([task, ...tasks])];
 
     setTasks(newTasks);
+
   }
 
   function handleRemoveTask(id: number) {
